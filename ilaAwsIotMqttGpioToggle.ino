@@ -42,14 +42,14 @@ int arrivedcount = 0;
 #include "CircularByteBuffer.h"
 
 //AWS IOT config, change these:
-char wifi_ssid[]       = "ByPlayIT";
-char wifi_password[]   = "9899093163";
-char aws_endpoint[]    = "a3qh8617optzvb.iot.us-west-2.amazonaws.com";
-char aws_key[]         = "AKIAIS3YZBZTCDDHGVXA";
-char aws_secret[]      = "89Gx0b+g1bE1EZ5nbtlQJvPGS2Ww/bJa6mQ8CcB/";
+char wifi_ssid[]       = "<Your SSID>";
+char wifi_password[]   = "<Password>";
+char aws_endpoint[]    = "<unique for your thing>.iot.us-west-2.amazonaws.com";
+char aws_key[]         = "unique for your user";
+char aws_secret[]      = "unique for your user";
 
-char aws_region[]      = "us-west-2";
-const char* aws_topic  = "/things/AkshayThing/shadow/update";
+char aws_region[]      = "<aws-region>";
+const char* aws_topic  = "<topic>";
 int port = 443;
 
 //MQTT config
