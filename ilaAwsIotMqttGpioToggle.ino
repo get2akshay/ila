@@ -47,6 +47,7 @@ char wifi_password[]   = "9899093163";
 char aws_endpoint[]    = "a3qh8617optzvb.iot.us-west-2.amazonaws.com";
 char aws_key[]         = "AKIAIS3YZBZTCDDHGVXA";
 char aws_secret[]      = "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";
+
 char aws_region[]      = "us-west-2";
 const char* aws_topic  = "/things/AkshayThing/shadow/update";
 int port = 443;
